@@ -1,0 +1,13 @@
+package main 
+
+import "fmt"
+
+func main(){
+	var n int
+	fmt.Scan(&n)
+	for 1 < n{
+		fmt.Print(n," x ")
+		n = n - 1
+	}
+	fmt.Println(1)
+}
